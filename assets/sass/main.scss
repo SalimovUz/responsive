@@ -1,0 +1,139 @@
+@import "./base/reset";
+@import "./layout/navigation";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/cards";
+@import "./layout/footer";
+@import "./components/buttons";
+@import "./base/typography";
+
+@media (max-width: 576px) {
+  .navbar {
+    width: 100%;
+    margin: 14px 10%;
+    padding: 0 16px;
+    align-items: center;
+  border-radius: 8px;
+  }
+  
+  .top__header {
+    align-items: center;
+    background: var(--orange-50, #ff9500);
+    padding: 0 14px;
+    height: 55px;
+  h1 {
+    font-size: 14px;
+    gap: 0px;
+  }
+}
+
+.hero__section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: -90px;
+}
+
+.hero__left_title {
+  font-size: 28px;
+  width: 358px;
+}
+
+.hero__right_title {
+  font-size: 14px;
+  width: 358px;
+}
+
+.bottom__header {
+  img {
+    margin-left: 12px;
+  }
+  .header__links {
+    display: none;
+  }
+  .header__buttons {
+    .login__btn,
+    .sign__btn {
+      font-size: 14px;
+    }
+    .svg__menu {
+      display: block;
+    }
+  }
+}
+
+.cards__section {
+  padding: 24px;
+  .cards__top {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .cards__top_left {
+      p {
+        width: 310px;
+        font-size: 14px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+    }
+
+    .cards__top_right {
+      .cards__btn {
+        font-size: 14px;
+        display: flex;
+        padding: 14px 16px;
+        justify-content: center;
+        // align-self: self-start;
+        gap: 8px;
+        border-radius: 6px;
+        border: 1px solid var(--white-95, #f1f1f3);
+        background: var(--white-99, #fcfcfd);
+      }
+    }
+  }
+  .cards__img {
+  gap: 10px;
+  .card__img {
+    width: 96px;
+  }
+
+  
+}
+.card__author {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card__workers {
+    display: flex;
+    flex-direction: column;
+
+    .workers__num {
+      display: flex;
+    flex-direction: column;
+
+    span {
+      width: 262px;
+height: 1px;
+    }
+    }
+  }
+}
+
+.footer__section {
+  display: flex;
+  flex-direction: column;
+}
+
+}
+
+
+// @media (min-width: 900px) {
+//   .svg__menu {
+//     visibility: hidden;
+//   }
+// }

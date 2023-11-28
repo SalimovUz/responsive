@@ -1,0 +1,27 @@
+.hero__section {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.hero__left_title {
+  flex: 1 0 0;
+  color: var(--grey-15, #262626);
+  font-family: Be Vietnam Pro;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 72px */
+}
+
+.hero__right_title {
+  flex: 1 0 0;
+  color: var(--grey-35, #59595a);
+  font-family: Be Vietnam Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  width: 748px;
+}
